@@ -55,6 +55,7 @@ public:
     };
 
 
+
     Fixed rho[256];
 
     Fixed p[N][M]{}, old_p[N][M];
