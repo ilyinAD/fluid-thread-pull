@@ -17,6 +17,7 @@ void doCompare(int numThreads) {
     int n = 500;
 
     Fluid sim;
+
     clock_t start, finish;
     start = clock();
     sim.run(n);
