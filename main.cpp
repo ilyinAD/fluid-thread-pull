@@ -33,6 +33,7 @@ void doCompare(int numThreads) {
     cout << "улучшенный симулятор без многопоточки " << duration1 << std::endl;
 }
 
+
 int main(int argc, char* argv[]) {
     cout << argc << endl;
     if (argc < 2) {
