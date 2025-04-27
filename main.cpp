@@ -43,6 +43,8 @@ void doCompare(int numThreads) {
 
 
 
+
+
 int main(int argc, char* argv[]) {
     cout << argc << endl;
     if (argc < 2) {
