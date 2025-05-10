@@ -20,6 +20,7 @@ void doCompare(int numThreads) {
 
     clock_t start, finish;
     start = clock();
+
     sim.run(n);
     finish = clock();
     double duration = (double)(finish - start) / CLOCKS_PER_SEC;
@@ -32,6 +33,8 @@ void doCompare(int numThreads) {
     double duration1 = (double)(finish1 - start1) / CLOCKS_PER_SEC;
     cout << "улучшенный симулятор без многопоточки " << duration1 << std::endl;
 }
+
+
 
 
 
